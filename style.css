@@ -9,7 +9,7 @@ body {
 }
 
 .header {
- margin-bottom: 130px;
+ margin-bottom: 129px;
  display: flex;
  justify-content: space-between;
 }
@@ -106,7 +106,7 @@ body {
 }
 
 .main{
-  padding: 76px 63% 200px 0;
+  padding: 76px 63% 199px 0;
   background: top right no-repeat url(img/mainImg.svg);
   margin-bottom: 70px;
 }
@@ -150,7 +150,7 @@ body {
 }
 
 .dots__one, .dots__two, .dots__three {
-  margin-right: 4px;
+  margin-right: 3px;
   width: 8px;
   height: 8px;
   background: #C8DBFB;
@@ -198,6 +198,16 @@ body {
     transform: translateY(-54%);
   }
 
+  .logo__circle_color_dark-blue {
+      left: 0px;
+      top: 50%;
+  }
+
+  .logo__circle_color_blue {
+    left: 8px;
+    top: 56%;
+}
+
   .menu__item {
     margin: 7px 26px 0 0;
     font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
@@ -216,23 +226,24 @@ body {
 
   .main__title {
     padding-left: 0;
-    margin: 0 0 40px 0;
+    margin: 0 0 37px 0;
     font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    margin-bottom: 39px;
+    margin-bottom: 42px;
     max-width: 370px;
-    padding-left: 1px;
-    font: 18px/22px Roboto, arial, helvetica, sans-serif;
+    padding-left: 0px;
+    font: 18px/21px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
     font: 14px/21px Roboto, arial, helvetica, sans-serif;
-    padding: 13px 27px 12px 17px;
+    padding: 12px 27px 11px 17px;
+    margin-left: 0;
   }
 
-  .tochki {
+  .dots{
     padding-left: 4px;
   }
 }
@@ -267,20 +278,17 @@ body {
   }
 
   .main{
-    background-size: 60%;
+    background-size: 55%;
   }
 
   .main__title {
-    font: bold 38px/56px pt_serifbold, arial, helvetica, sans-serif;
+    font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    font: 500 15px/22px Roboto, arial, helvetica, sans-serif;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   }
 
-  .main__button{
-    font-size: 17px;
-  }
   .menu__item:last-child {
     margin-right: 1px;
   }
@@ -315,7 +323,6 @@ body {
 
 .logo__mobile{
   display: block;
-  margin-left: -3px;
 }
 
 .main {
@@ -371,11 +378,11 @@ body {
  }
 .menu__btn > span::before {
    content: '';
-   top: -8px;
+   top: -7px;
  }
 .menu__btn > span::after {
    content: '';
-   top: 8px;
+   top: 7px;
  }
 
 .menu__box {
@@ -440,12 +447,16 @@ body {
   }
 
   .main__title{
-    word-spacing: 3px;
+    word-spacing: 6px;
   }
   .main__subtitle {
     padding: 0 47px;
     margin-bottom: 27px;
   }
+
+.main__button{
+  padding: 15px 27px 11px 17px;
+}
 
   .menu__item{
     margin: 8px 26px 0 0;
