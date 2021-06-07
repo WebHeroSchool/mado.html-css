@@ -327,24 +327,24 @@ body {
 
 .main {
   text-align: center;
-  padding: 79% 0 0;
-  background-size: 80%;
+  padding: 66% 0 0;
+  background-size: 66%;
   background-position: top center;
 }
 
 .main__title {
  margin-bottom: 32px;
- font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+ font: bold 34px/41px pt_serif, arial, helvetica, sans-serif;
  }
 
 .main__subtitle {
    max-width: 100%;
    margin-bottom: 25px;
-   font: 600 16px/19px Roboto, arial, helvetica, sans-serif;
+   font: 500 21px/29px Roboto, arial, helvetica, sans-serif;
  }
 
 .main__button {
-   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+   font: 500 18px/25px Roboto, arial, helvetica, sans-serif;
  }
 
 #menu__toggle {
@@ -444,18 +444,22 @@ body {
 @media (max-width: 376px) {
   .main {
     background-size: 85%;
+    padding: 79% 0 0;
   }
 
   .main__title{
     word-spacing: 6px;
+    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
   }
   .main__subtitle {
     padding: 0 47px;
     margin-bottom: 27px;
+    font: 600 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
 .main__button{
   padding: 15px 27px 11px 17px;
+  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
 }
 
   .menu__item{
