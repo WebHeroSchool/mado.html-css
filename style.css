@@ -315,17 +315,18 @@ body {
 
 .logo__mobile{
   display: block;
+  margin-left: -3px;
 }
 
 .main {
   text-align: center;
-  padding: 80% 0 0;
+  padding: 79% 0 0;
   background-size: 80%;
   background-position: top center;
 }
 
 .main__title {
- margin-bottom: 44px;
+ margin-bottom: 32px;
  font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
  }
 
@@ -386,7 +387,7 @@ body {
    width: 100%;
    height: 100%;
    margin: 0;
-   padding: 150px 0;
+   padding: 168px 0;
    list-style: none;
    text-align: center;
    background-color: #FFFFFF;
@@ -438,8 +439,23 @@ body {
     background-size: 85%;
   }
 
-  .main__subtitle {
-    padding: 0 24px;
-    margin-bottom: 25px;
+  .main__title{
+    word-spacing: 3px;
   }
+  .main__subtitle {
+    padding: 0 47px;
+    margin-bottom: 27px;
+  }
+
+  .menu__item{
+    margin: 8px 26px 0 0;
+    padding: 11px 24px;
+  }
+
+  .header{
+    margin-bottom: 7px;
+  }
+
+  .logo__circle_color_blue {
+    top: 57%;
 }
