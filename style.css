@@ -288,14 +288,6 @@ body {
     background-size: 55%;
   }
 
-  .main__title {
-    font: bold 40px/50px pt_serifbold, arial, helvetica, sans-serif;
-  }
-
-  .main__subtitle {
-    font: 500 16px/20px roboto_medium, arial, helvetica, sans-serif;
-  }
-
   .menu__item:last-child {
     margin-right: 1px;
   }
