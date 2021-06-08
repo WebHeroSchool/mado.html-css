@@ -1,10 +1,9 @@
 body {
  margin: 0;
- /* width: 1920px; */
 }
 
 .wrapper {
-  width: 80%; /*1920 - 196 - 201 = 1523px,(1523px/1920px)*100% = 80%*/
+  width: 80%;
   margin: auto;
 }
 
@@ -207,7 +206,7 @@ body {
   }
 
   .logo__circle_color_dark-blue {
-      left: 0px;
+      left: 0;
       top: 50%;
   }
 
@@ -241,7 +240,7 @@ body {
   .main__subtitle {
     margin-bottom: 42px;
     max-width: 370px;
-    padding-left: 0px;
+    padding-left: 0;
     font: 18px/21px roboto_medium, arial, helvetica, sans-serif;
   }
 
@@ -407,7 +406,7 @@ body {
    list-style: none;
    text-align: center;
    background-color: #FFFFFF;
-   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+   box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
    overflow-y: hidden;
  }
 
