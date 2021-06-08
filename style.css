@@ -124,6 +124,17 @@ body {
  font: 22px/26px roboto_regular, arial, helvetica, sans-serif;
 }
 
+@keyframes click-me {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-10%);
+    background-color: #EF832B;
+  }
+}
+
 .main__button{
    font: 18px/21px roboto_medium, arial, helvetica, sans-serif;
    text-decoration: none;
@@ -133,11 +144,8 @@ body {
    display: inline-block;
    color: #fff;
    background: #0056EC;
+   animation: click-me 1.5s alternate infinite none running;
    transition: opacity .5s;
-}
-
-.main__button:hover {
- opacity: .5;
 }
 
 .main__title-text_highlight {
