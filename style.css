@@ -282,11 +282,11 @@ body {
   }
 
   .main__title {
-    font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+    font: bold 40px/50px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    font: 500 18px/21px roboto_medium, arial, helvetica, sans-serif;
+    font: 500 16px/20px roboto_medium, arial, helvetica, sans-serif;
   }
 
   .menu__item:last-child {
@@ -479,5 +479,6 @@ body {
 }
 
 .logo__circle_color_dark-blue {
-  top: 57%;
+  top: 49%;
+  left: 1px;
 }
