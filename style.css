@@ -430,17 +430,17 @@ body {
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
-  
+
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
-  
+
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
-  
+
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
@@ -456,7 +456,7 @@ body {
   .main__title {
     font: 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
-  
+
   .main__subtitle {
     padding: 0 37px;
     margin-left: 4px;
