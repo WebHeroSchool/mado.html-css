@@ -422,7 +422,7 @@ body {
     text-decoration: none;
     transition-duration: 0.25s;
   }
-  
+
   .menu__item:hover {
     background-color: #fff;
   }
