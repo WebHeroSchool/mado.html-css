@@ -104,9 +104,9 @@ body {
 }
 
 .logo__circle_color_dark-blue {
- background: #0056ec;
- left: 4px;
- top: 49%;
+  background: #0056ec;
+  left: 4px;
+  top: 49%;
 }
 
 .main {
@@ -135,11 +135,11 @@ body {
 
   100% {
     transform: translateY(-10%);
-    background-color: #EF832B;
+    background-color: #ef832b;
   }
 }
 
-.main__button{
+.main__button {
   font: 18px/21px roboto_medium, arial, helvetica, sans-serif;
   text-decoration: none;
   margin-left: 3px;
@@ -153,7 +153,7 @@ body {
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
+  background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ecf3ff 15%);
 }
 
 .dots {
@@ -211,8 +211,8 @@ body {
   }
 
   .logo__circle_color_dark-blue {
-      left: 0;
-      top: 50%;
+     left: 0;
+     top: 50%;
   }
 
   .logo__circle_color_blue {
